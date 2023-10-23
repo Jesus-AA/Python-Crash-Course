@@ -1,0 +1,11 @@
+guests = ["messi", "ronaldo", "maradonna"]
+print(f"Hello {guests[0]}, you are invited to dinner!")
+print(f"Hello {guests[1]}, you are invited to dinner!")
+print(f"Hello {guests[2]}, you are invited to dinner!")
+print(f"Unfortunately, {guests[2]} could not make it to dinner.")
+guests.pop()
+guests.append("pele")
+print("Here are the new guests")
+print(f"Hello {guests[0]}, you are invited to dinner!")
+print(f"Hello {guests[1]}, you are invited to dinner!")
+print(f"Hello {guests[2]}, you are invited to dinner!")
