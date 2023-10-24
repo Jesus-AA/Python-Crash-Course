@@ -1,0 +1,8 @@
+menu = ("burger", "hotdog", "milk", "egg", "cookie")
+
+for food in menu:
+    print(food)
+
+menu = ("steak", "hotdog", "chicken", "egg", "cookie")
+for food in menu:
+    print(food)
